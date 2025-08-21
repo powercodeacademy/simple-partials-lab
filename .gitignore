@@ -43,3 +43,25 @@ jspm_packages
 /log/*
 !/log/.keep
 /tmp
+
+# Rails 7.1 specific
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/credentials/*.key
+
+# Ignore coverage directory
+/coverage
+
+# Ignore SQLite database files
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-*

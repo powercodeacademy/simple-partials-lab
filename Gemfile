@@ -5,6 +5,7 @@ gem 'puma', '~> 6.0'
 gem 'rails', '~> 7.1.0'
 gem 'sqlite3', '~> 1.4'
 gem 'warnings'
+gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'annotate'

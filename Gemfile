@@ -10,6 +10,7 @@ group :development, :test do
   gem 'annotate'
   gem 'faker'
   gem 'pry'
+  gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 6.0'
   gem 'rubocop', require: false
 end
